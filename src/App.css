@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 350px;
+    
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+      
+}
+
+body {
+    background-color: #E4AEC5;
+}
+
+.picture {
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #5F7464;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+.inputText {
+    display: flex;
+    justify-content: center;
+}
+.list {
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    border: 3px solid #E4AEC5;
+}
+
+.crossed {
+
+    text-decoration: line-through 2px #61A4BC;
+  background-color: #97DBAE;
+  color: white;
+  
+     }
+    
+     li {
+         color: white;
+         padding: 5px;
+         margin: 2px;
+         background-color: #E4AEC5;
+         font-family: 'Montserrat', sans-serif;
+       
+     }
+.cta {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.btn {
+    padding: 7px;
+    background-color: #97DBAE;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.ctaTwo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.btnTwo{
+    padding: 7px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    background-color: #97DBAE;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
